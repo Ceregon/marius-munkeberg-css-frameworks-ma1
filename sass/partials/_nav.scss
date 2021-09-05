@@ -1,0 +1,20 @@
+.navbar {
+    background-color: getColour(container) !important;
+    padding: 0 4%;
+
+    .navbar-brand {
+        font-size: 36px;
+        color: getColour(text-dark) !important;
+    }
+    
+    .nav-link {
+        font-family: $font-nav, sans-serif;
+        font-size: 18px;
+        color: getColour(text-light) !important;
+        text-transform: uppercase;
+    }
+    
+    .active {
+        color: getColour(primary) !important;
+    }
+}

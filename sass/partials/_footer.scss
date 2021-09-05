@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 4%;
+    margin-top: 2rem;
+    background-color: getColour(secondary);
+    height: 92px;
+
+    div {
+        font-size: 12px;
+        color: getColour(text-light);
+    }
+}
+
+@media screen and (min-width: 768px){
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: getColour(container);
+        height: 44px;
+
+        div {
+            margin: auto 0;
+        }
+    } 
+}

@@ -1,0 +1,111 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #E5E5E5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 34px;
+  padding: 30px;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: #F4F3EE;
+  -webkit-box-shadow: 0 6px 12px rgba(58, 54, 54, 0.07);
+          box-shadow: 0 6px 12px rgba(58, 54, 54, 0.07);
+}
+
+.white-card {
+  background-color: #FFFFFF;
+  border: 3px solid #C32C72;
+}
+
+.red-card {
+  background-color: #C32C72;
+  border: 3px solid #FFFFFF;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.navbar {
+  background-color: #F4F3EE !important;
+  padding: 0 4%;
+}
+
+.navbar .navbar-brand {
+  font-size: 36px;
+  color: #262626 !important;
+}
+
+.navbar .nav-link {
+  font-family: "Archivo Narrow", sans-serif, sans-serif;
+  font-size: 18px;
+  color: #8D8D8D !important;
+  text-transform: uppercase;
+}
+
+.navbar .active {
+  color: #C32C72 !important;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 4%;
+  margin-top: 2rem;
+  background-color: #FFFFFF;
+  height: 92px;
+}
+
+footer div {
+  font-size: 12px;
+  color: #8D8D8D;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #F4F3EE;
+    height: 44px;
+  }
+  footer div {
+    margin: auto 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
